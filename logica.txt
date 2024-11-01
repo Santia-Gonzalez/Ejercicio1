@@ -1,0 +1,30 @@
+Desarrolla un programa en Python para gestionar órdenes de venta. El programa debe realizar las siguientes tareas:
+
+Información inicial:
+
+# Lista de productos y precios
+productos = ["Laptop", "Smartphone", "Tablet", "Auriculares", "Monitor"]
+precios = [1000, 500, 300, 100, 700]
+# Inicializar la orden
+orden = []
+
+1. Crear un diccionario de catalogo con productos y precios usando zip.
+output: {'Laptop': 1000, 'Smartphone': 500, 'Tablet': 300, 'Auriculares': 100, 'Monitor': 700}
+
+2. Permitir al usuario agregar productos a la orden de venta.
+
+Nota: usar "input" de python para capturar opciones
+
+3. Calcular el total de la orden, aplicando descuentos según la cantidad de productos.
+
+Descuento según la cantidad
+10% de descuento si la cantidad es mayor o igual a 5
+5% de descuento si la cantidad es mayor o igual a 3
+
+4. Genera un resumen de la orden usando list comprehension y luego muestra el resumen.
+5. Generar un número de seguimiento de 8 digitos para la orden usando random y list comprehension.
+6. Muestra el total de la orden
+7. Crea una clase Iterable personalizada para seguimiento de envío
+
+etapas_envio = SeguimientoEnvio(["En preparación", "En tránsito", "En centro de distribución", "En reparto", "Entregado"])
+Iterar el objeto iterable e imprimir "¡Su paquete está cerca!" si la etapa es "En reparto":
